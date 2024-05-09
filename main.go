@@ -3,13 +3,13 @@ package main
 import (
 	"log"
 
-	"iteung/config"
+	"github.com/HammiAhlan/Web_Donasi/config"
 
 	"github.com/aiteung/musik"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 
 
-	"iteung/url"
+	"github.com/HammiAhlan/Web_Donasi/url"
 
 	"github.com/gofiber/fiber/v2"
 )
