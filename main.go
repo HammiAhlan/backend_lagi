@@ -2,7 +2,7 @@ package main
 
 import (
 	"log"
-	"github.com/HammiAhlan/Web_Donasi/config"
+	"github.com/HammiAhlan/backend_lagi/config"
 	"github.com/aiteung/musik"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 	"github.com/HammiAhlan/backend_lagi/url"

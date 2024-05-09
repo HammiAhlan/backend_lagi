@@ -1,10 +1,10 @@
 package controller
 
 import (
-	hahay "github.com/HammiAhlan/Web_Donasi"
-	
+	valo "github.com/HammiAhlan/Donation"
 	"github.com/aiteung/musik"
 	"github.com/gofiber/fiber/v2"
+	
 )
 
 func Homepage(c *fiber.Ctx) error {
@@ -12,8 +12,7 @@ func Homepage(c *fiber.Ctx) error {
 	return c.JSON(ipaddr)
 }
 
-func GetPresensi(c *fiber.Ctx) error {
-	ps := Web_Donasi.GetAllPresensi()
+func GetDonasiData(c *fiber.Ctx) error{
+	ps :=valo.GetAllDonasi()
 	return c.JSON(ps)
 }
-

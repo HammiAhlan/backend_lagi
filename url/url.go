@@ -1,7 +1,7 @@
 package url
 
 import (
-	"github.com/HammiAhlan/Web_Donasi/controller"
+	"github.com/HammiAhlan/backend_lagi/controller"
 
 	"github.com/gofiber/fiber/v2"
 )
@@ -18,5 +18,6 @@ func Web(page *fiber.App) {
 	page.Options("/", controller.Sink)
 
 	page.Get("/checkip", controller.Homepage) //ujicoba panggil package musik
+	page.Get("/donasi", controller.GetDonasiData)
 }
 
