@@ -2,15 +2,10 @@ package main
 
 import (
 	"log"
-
 	"github.com/HammiAhlan/Web_Donasi/config"
-
 	"github.com/aiteung/musik"
 	"github.com/gofiber/fiber/v2/middleware/cors"
-
-
-	"github.com/HammiAhlan/Web_Donasi/url"
-
+	"github.com/HammiAhlan/backend_lagi/url"
 	"github.com/gofiber/fiber/v2"
 )
 
