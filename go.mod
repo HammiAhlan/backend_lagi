@@ -9,7 +9,6 @@ require (
 	github.com/gofiber/fiber/v2 v2.52.4
 	github.com/whatsauth/whatsauth v0.2.9
 	go.mau.fi/whatsmeow v0.0.0-20240507080416-01b0547014dc
-	go.mongodb.org/mongo-driver v1.15.0
 )
 
 require (
@@ -49,6 +48,7 @@ require (
 	github.com/youmark/pkcs8 v0.0.0-20240424034433-3c2c7870ae76 // indirect
 	go.mau.fi/libsignal v0.1.0 // indirect
 	go.mau.fi/util v0.4.2 // indirect
+	go.mongodb.org/mongo-driver v1.15.0 // indirect
 	golang.org/x/crypto v0.23.0 // indirect
 	golang.org/x/net v0.25.0 // indirect
 	golang.org/x/sync v0.7.0 // indirect
