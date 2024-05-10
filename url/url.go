@@ -16,6 +16,7 @@ func Web(page *fiber.App) {
 	page.Options("/", controller.Sink)
 
 	page.Get("/checkip", controller.Homepage) //ujicoba panggil package musik
+	
 	page.Get("/donasi", controller.GetDonasiData)
 }
 
